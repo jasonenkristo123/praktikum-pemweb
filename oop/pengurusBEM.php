@@ -5,8 +5,8 @@ class pengurusBEM {
    public $nama;
    public $nim;
    public $angkatan;
-   private $jabatan;
-   private $foto;
+   public $jabatan;
+   public $foto;
 
    public function setNama($nama) { 
       $this->nama = $nama;
@@ -16,7 +16,7 @@ class pengurusBEM {
       echo "$this->nama";
    }
 
-   private function setJabatan($jabatan) {    
+   public function setJabatan($jabatan) {    
       $this->jabatan = $jabatan;
    }
   
